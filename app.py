@@ -117,7 +117,7 @@ def edit(id):
 # create a route to delete a post
 # delete page wil only be processed with a POST method
 # the post id is the url parameter
-@app.route('/<int:id/delete', methods=('POST',))
+@app.route('/<int:id>/delete', methods=('POST',))
 
 def delete(id):
 
